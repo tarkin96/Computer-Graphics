@@ -1,0 +1,19 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib testLow1.mtl
+g default
+v 0 0 -146.467302
+v 50 -50 -146.467302
+v -50 -50 -146.467302
+v 50 -100 -146.467302
+v -50 -100 -146.467302
+vt 0.000000 0.000000
+vt 1.000000 0.000000
+vt 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+s 1
+g pCube3
+usemtl initialShadingGroup
+f 1/1/1 2/2/2 4/3/3 5/1/1 3/2/2

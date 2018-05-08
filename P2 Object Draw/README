@@ -1,0 +1,67 @@
+Wade King
+11/03/2017
+
+To compile/run:
+
+	make
+	./assn2 [obj file]
+	
+Controls:
+	w: switch between wireframe and polygon fill
+	e: switch to/from scale mode
+		w: increase scale
+		s: increase scale
+		a: decrease scale
+		d: decrease scale
+	r: switch to/from rotate mode
+		w: rotate counterclockwise around y axis
+		s: rotate clockwise around y axis
+		a: rotate clockwise around x axis
+		d: rotate counterclockwise around x axis		
+	t: switch to/from translate mode
+		w: translate up
+		s: translate down
+		a: translate left
+		d: translate right
+	esc: exit program
+			
+Files:
+	Camera.h
+	Camera.cpp
+	main.cpp
+	Makefile
+	Matrix.cpp
+	Matrix.h
+	Object.cpp
+	Object.h
+	objectstructs.h
+	ObjHandle.cpp
+	ObjHandle.h
+	parser.cpp
+	parser.h
+	Polygon.cpp
+	Polygon.h
+	README (this)
+	Renderer.cpp
+	Renderer.h
+	Transform.cpp
+	Transform.h
+
+
+Notes: 
+
+1. I implemented options 1 (Z-buffer) and 2 (Transforming polygons)
+
+2. If you are wondering where write_pixel() went, it can be found in the Renderer.cpp file. 
+
+3. The Makefile is not my own. Information regarding its origins are found in the Makefile. 
+
+4. Be careful running on ada machines. It segfaults when you press escape and has many memory leaks due to bad graphics drivers.
+
+5. Works fine on koala machines and my virtual machine. 
+
+6. For rotation, I was not sure if the scale needed to be uniform or not, so I made each button scale in a different direction.
+
+MY NOTES!!!!!!!
+
+1. Attempt to add perspective view

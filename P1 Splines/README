@@ -1,0 +1,12 @@
+Name: Wade King
+Date: 10-4-17
+Assignment 1
+
+To make: type "make"
+To clean: type "make clean"
+To run: type "./assn1"
+
+Files included: 
+	assn1.cpp
+	Curve.h
+	Curve.cpp
